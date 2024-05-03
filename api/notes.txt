@@ -1,0 +1,8 @@
+c#
+c# dev kit
+.net extension pack
+.net install tool
+nuget gallery
+prettier
+extension pack by joskreativ
+user secrets??
