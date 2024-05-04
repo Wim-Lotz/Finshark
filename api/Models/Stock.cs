@@ -9,7 +9,7 @@ namespace api.Models
 {
     public class Stock
     {
-        public int MyProperty { get; set; }
+        public int Id { get; set; }
         public string Symbol { get; set; } = string.Empty;
         public string CompanyName { get; set; } = string.Empty;
 
@@ -21,7 +21,7 @@ namespace api.Models
 
         public string Industry { get; set; } = string.Empty;
 
-        public long MarkeyCap { get; set; }
+        public long MarketCap { get; set; }
 
         public List<Comment> Comments { get; set; } = [];
     }
