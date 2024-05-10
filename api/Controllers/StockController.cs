@@ -16,12 +16,10 @@ namespace api.Controllers
     [Route("api/stock")]
     public class StockController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
         private readonly IStockRepository _stockRepo;
-        public StockController(ApplicationDbContext context, IStockRepository stockRepo)
+        public StockController( IStockRepository stockRepo)
         {
             _stockRepo = stockRepo;
-            _context = context;
         }
 
         [HttpGet]
